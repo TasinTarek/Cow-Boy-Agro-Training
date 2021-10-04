@@ -1,0 +1,31 @@
+[
+  {
+    "_id": "615b56f71a3647a3de357119",
+    "picture": "https://c8.alamy.com/comp/M66E7P/cattle-fattening-46-M66E7P.jpg",
+    "lectures": 10,
+    "price": 421,
+    "title": "Cow Fattening Programe"
+  },
+  {
+    "_id": "615b56f7034e919ebaa026d6",
+    "picture": "https://cdn.britannica.com/w:400,h:300,c:crop/56/155656-050-EF76EB04/chickens-poultry-farm.jpg",
+    "lectures": 53,
+    "price": 273,
+    "title": "Poultry Farm Course"
+  },
+  {
+    "_id": "615b56f7e9a477994e67407e",
+    "picture": "https://media.istockphoto.com/photos/farmer-pouring-raw-milk-into-container-picture-id1297005217?k=20&m=1297005217&s=612x612&w=0&h=MjO3bdcmrMNYEM_AA7oByVxLe7goVSW7BB5kLePxywE=",
+    "lectures": 19,
+    "price": 284,
+    "title": "Dairy Training"
+  },
+  {
+    "_id": "615b56f790de420cb9e95590",
+    "picture": "https://caricom.org/wp-content/uploads/fisheries.gif",
+    "lectures": 49,
+    "price": 310,
+    "title": "Fish Project"
+  }
+  
+]
