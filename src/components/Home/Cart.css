@@ -1,0 +1,10 @@
+.cart{
+    margin: 200px;
+    text-align: center;
+    padding: 20px;
+    width: 75%;
+    border: 1px solid black ;
+    border-radius: 20px;
+    background-color: cadetblue;
+    color: cornsilk;
+}

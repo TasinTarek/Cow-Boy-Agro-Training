@@ -1,19 +1,17 @@
-import { Avatar, Card, CardContent, CardHeader, CardMedia, Grid, Typography } from '@mui/material';
+import {  Button, Card, CardContent, CardHeader, CardMedia,  Typography } from '@mui/material';
 import { red } from '@mui/material/colors';
 import React from 'react';
+import './sector.css'
 
 
 const Sector = (props) => {
-  const {title,lectures,picture } = props.sector
+  const {title,lectures,picture,price } = props.sector
     
     return (
-    <Card sx={{ maxWidth: 345 }}>
+      
+    <Card className="sectorCard"  sx={{ maxWidth: 345 }}>
         <CardHeader
-          avatar={
-            <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-              R
-            </Avatar>
-          }
+          
           
           title={title}
           subheader="September 14, 2016"
@@ -25,15 +23,17 @@ const Sector = (props) => {
           alt="Paella dish"
         />
         <CardContent>
-          <Typography variant="body2" color="text.secondary">
-            This impressive paella is a perfect party dish and a fun meal to cook
-            together with your guests. Add 1 cup of frozen peas along with the mussels,
-            if you like.
+          <Typography variant="body3" color="text.primary">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aliquid praesentium totam repellendus molestiae, minima, non repudiandae illo iure saepe ducimus quidem itaque eum ratione quaerat ut deleniti libero quae.
           </Typography>
+          <h6>Lectures:{lectures}</h6>
+          <h4>Price:BDT {price}</h4>
+          <Button className="footer"
+          onClick={()=>props.handleEvent(props.sector)} >Enroll</Button>
         </CardContent>
       </Card>
     
-  
+
   
 
         

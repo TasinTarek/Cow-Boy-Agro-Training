@@ -26,6 +26,20 @@
     "lectures": 49,
     "price": 310,
     "title": "Fish Project"
+  },
+  {
+    "_id": "615b56f790de420cb9e95590",
+    "picture": "https://cosmolearning.org/images_dir/courses/951/profile-thumbnail-w300.jpg",
+    "lectures": 49,
+    "price": 310,
+    "title": "From Climate Section To Action"
+  },
+  {
+    "_id": "615b56f790de420cb9e95590",
+    "picture": "https://c8.alamy.com/comp/T0YA8C/vecchiano-pisa-alessandro-di-fonzo-agri-coach-with-some-participants-in-agro-marketing-courses-claudio-fusifotogramma-pisa-2019-03-21-ps-the-photo-can-be-used-respecting-the-context-in-which-it-was-taken-and-without-defamatory-intent-of-the-decorum-of-the-persons-represented-T0YA8C.jpg",
+    "lectures": 49,
+    "price": 310,
+    "title": "Agriculture Economic And Nature "
   }
   
 ]
